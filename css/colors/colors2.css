@@ -1,0 +1,51 @@
+#first {
+    color: black;
+    background-color: aqua;
+    opacity: 0.5;
+}
+#second {
+    color: rgb(102, 51, 0);
+    background-color: rgba(0, 206, 209, 0.5) ;
+}
+#third {
+    color: #ff0000;
+    background-color: #ffe4c4;
+}
+img {
+    width: 200px;
+}
+#div1 {
+    background-color: aquamarine;
+    opacity: 0.1;
+}
+#div2 {
+    background-color: rgba(212, 175, 55, 0.8);
+}
+table, tr, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+table {
+    width: 70%;
+}
+#prva, #druga, #treca, #cetvrta, #peta, #sesta {
+    height: 50px;
+}
+#prva {
+    background-color: aliceblue;
+}
+#druga {
+    background-color: hotpink;
+}
+#treca {
+    background-color: rgb(217, 33, 33);
+}
+#cetvrta {
+    background-color: rgb(4, 92, 90);
+}
+#peta {
+    background-color: #1c2e4a;
+}
+#sesta {
+    background-color: #ffe4c4;
+}

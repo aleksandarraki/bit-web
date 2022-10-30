@@ -1,0 +1,14 @@
+#pic1 {
+    height: 200px;
+    float: right;
+}
+#pic2 {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+#pic3 {
+    width: 200px;
+    height: 200px;
+    float: left;
+}

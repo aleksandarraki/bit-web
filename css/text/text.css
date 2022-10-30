@@ -1,0 +1,60 @@
+body {
+    font-size: 20px;
+}
+
+#p1 {
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    text-align: left;
+}
+#p2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-transform: lowercase;
+    line-height: 200%;
+    text-align: right;
+    
+}
+#p3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+#p4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#q1 {
+    font-family: cursive;
+}
+#q2 {
+    font-family: monospace;
+}
+#q3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+#q4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span {
+    font-weight: bold;
+    font-style: italic;
+}
+.shadow {
+    color: green;
+}
+.shadow1 {
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: rgb(14, 13, 13);
+}
+a:link:hover {
+    color: rgb(66, 92, 66);
+}
+a:visited:hover {
+    color: rgb(56, 56, 197);
+}

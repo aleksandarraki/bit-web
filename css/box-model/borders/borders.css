@@ -1,0 +1,55 @@
+
+
+.paragraf1 {
+    background-color: rgb(240, 240, 101);
+    border-width: 5px;
+    border-style: dashed;
+    border-color: red;
+    /*padding: 50px ;**/
+    width: 300px;
+    /*margin: 50px;*/
+    margin-right: 20px;
+}
+
+.paragraf2 {
+    background-color: rgb(252, 252, 95);
+    border-width: 5px ;
+    border-color: rgb(54, 105, 54);
+    border-style: solid;
+    /*padding: 50px 0 0 0;*/
+    width: 400px;
+   /* margin: auto;*/
+    margin-right: 20px;
+    /*visibility: hidden;*/
+}
+
+.paragraf3 {
+    background-color: rgb(228, 228, 34);
+    border-width: 5px ;
+    border-style: dashed;
+    border-color: red;
+    /*padding: 50px ;*/
+    width: 200px;
+    /*margin: 0 0 0 100px;*/
+    margin-right: 20px;
+    /*visibility: hidden;*/
+}
+
+.paragraf {
+    display: inline-block;
+}
+h1 {
+    width: 960px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(28, 181, 241, 0.959);
+    font-family: 'Dancing Script', cursive; 
+    font-size: 55px;
+    color: rgb(89, 13, 160);
+    box-shadow: 20px 20px 30px #000000;
+    border-radius: 15px 15px 15px;
+    

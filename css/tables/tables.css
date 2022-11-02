@@ -1,0 +1,41 @@
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    border-collapse: collapse;
+    width: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+} 
+.row1 {
+    background-color: rgb(252, 80, 80);
+    color: white;
+   /* font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+}
+.slike {
+    height: 100px;
+    width: 120px;
+}
+.row2 {
+    background-color: white;
+
+}
+.row3 {
+    background-color: rgb(224, 219, 219);
+}
+.row4 {
+    background-color: orange;
+}
+.row5 {
+    background-color: rgb(224, 219, 219);
+}
+.row6 {
+    background-color: rgb(247, 247, 247);
+}
+th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+tr:hover {
+    background-color: rgb(252, 252, 72);
+}

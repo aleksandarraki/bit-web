@@ -1,0 +1,23 @@
+#list1 {
+    list-style-type: circle;
+}
+#list2 {
+    list-style-type: square;
+}
+#list3 {
+    list-style-type: upper-alpha;
+}
+#list4 {
+    list-style-type: upper-roman;
+}
+#list5 {
+    list-style-image: url(./smanjena\ slika3.png);
+    width: 200px;
+    margin: 0 20px;
+    
+}
+#list6 {
+    width: 200px;
+    list-style-image: url(./smanjena\ slika2.png);
+    list-style-position: inside;
+}

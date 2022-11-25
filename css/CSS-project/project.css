@@ -206,7 +206,7 @@ ul#arrow-bullet{
 }
 
 .partial-comment {
-    background-color: rgb(19, 112, 233);
+    background-color: rgb(23, 179, 252);
     padding: 30px;
     min-height: 300px;
 }
@@ -275,7 +275,7 @@ color: white;
     background-color: rgb(247, 62, 62);
 }
 .imenik-3 {
-    background-color: rgb(19, 106, 236);
+    background-color: rgb(19, 125, 247);
 }
 .imenik-4 {
     background-color: lightblue;
@@ -303,14 +303,15 @@ color: white;
     gap: 15px;
   }
   #form button {
-    background-color:orange;
+    background-color:rgb(233, 144, 10);
     color:white;
     padding: 15px 25px;
     border: none;
+    width: 120px;
   }
    footer {
     padding: 15px;
-    background-color: black;
+    background-color: rgb(32, 32, 32);
     text-align: center;
     color: white;
    

@@ -1,0 +1,81 @@
+.box-1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(170, 9, 9);
+}
+
+.box-2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 196, 0);
+}
+
+.box-3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(6, 6, 36);
+}
+
+/* drugi primer*/
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(170, 9, 9);
+    position: relative;
+    z-index: -1;
+    
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 196, 0);
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    z-index: 0;
+    
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(6, 6, 36);
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+    z-index: 1;
+    
+}
+
+/*treci primer*/
+
+.box-a {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(170, 9, 9);
+    position: relative;
+    left:89% ;
+    z-index: 1;
+}
+
+.box-b {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 196, 0);
+    position: relative;
+    left: 84%;
+    bottom: 100px;
+    z-index: 0;
+}
+
+.box-c {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(6, 6, 36);
+    position: relative;
+    left: 79%;
+    bottom: 200px;
+    z-index: -1;
+}

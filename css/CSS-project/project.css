@@ -336,10 +336,10 @@ color: white;
    
 @media (max-width: 1200px) {
     .main-container {
-      max-width: 1024px;
+      max-width: 1200px;
     }
     #who-we-are {
-      max-width: 1024px;
+      max-width: 1200px;
     }
   }
   

@@ -35,6 +35,9 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+li a:hover{
+  color: darkgoldenrod;
+}
 
 .section-1 {
     background-image: url(./Pictures/banner3.jpg);

@@ -17,4 +17,18 @@ function changeActive() {
     newActiveNode.classList.add("active");
 }
 
-changeActive()
+changeActive();
+
+// drugi način
+
+
+
+// function changeActive() {
+//     var activeLiNode = document.querySelector('.active');
+//     activeLiNode.classList.remove('active');
+//     var newActiveLiNode =
+//         activeLiNode.parentElement.parentElement.previousElementSibling
+//             .firstElementChild.firstElementChild;
+//     newActiveLiNode.classList.add('active');
+// }
+// changeActive();

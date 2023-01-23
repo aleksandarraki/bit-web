@@ -6,17 +6,27 @@
 // The function should select the last &lt;li&gt; element in the list and replace its text with
 // text passed as the function argument.
 
+// function printAlert() {
+//     var item = document.querySelector("ul");
+//     var alertNode = item.firstElementChild;
+//     window.alert(alertNode.textContent);
+// }
+
 function printAlert() {
-    var item = document.querySelector("ul");
-    var alertNode = item.firstElementChild;
+    var alertNode = document.getElementsByTagName("li")[0];
     window.alert(alertNode.textContent);
 }
 
 printAlert();
 
+// function replace(text) {
+//     var item = document.querySelector("ul");
+//     var textNode = item.lastElementChild;
+//     textNode.textContent = text;
+// }
+
 function replace(text) {
-    var item = document.querySelector("ul");
-    var textNode = item.lastElementChild;
+    var textNode = document.getElementsByTagName("li")[2];
     textNode.textContent = text;
 }
 

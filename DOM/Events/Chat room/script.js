@@ -8,7 +8,7 @@ function chatRoom() {
     message.appendChild(text);
     chat.appendChild(message);
     user.value = "";
-    document.getElementById("usermsg").style.border = " 2px solid lightblue";
+    document.getElementById("usermsg").style.border = " 3px solid lightblue";
 
 
 }

@@ -1,0 +1,35 @@
+body {
+    background: rgb(219, 218, 218);
+}
+
+
+.change-background {
+    background: rgb(27, 31, 68);
+}
+
+.wraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+#change-color {
+    width: 170px;
+    height: 40px;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+#turn-off {
+    width: 120px;
+    height: 35px;
+    background-color: rgb(255, 208, 0);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}

@@ -15,6 +15,7 @@ function toggleBackground() {
         newvColor += hexColor[Math.floor(Math.random() * hexColor.length)];
     }
 
+
     document.getElementById("demo").textContent = "color: " + newvColor;
     document.querySelector("div").style.backgroundColor = newvColor;
 
@@ -22,5 +23,6 @@ function toggleBackground() {
 
 
 btn.addEventListener("click", toggleBackground);
+console.log(toggleBackground);
 
 

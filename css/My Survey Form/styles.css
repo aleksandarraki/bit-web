@@ -1,0 +1,108 @@
+body {
+    margin: 0 auto;
+    font-family:"Poppins";
+    color: white;
+    background-color: rgb(104, 104, 248);
+}
+
+header {
+    text-align: center;
+    background-color: rgb(104, 104, 248);
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: -55px;
+    width: 50%;
+
+}
+
+h1 {
+    font-weight: 400;
+}
+
+p {
+    margin-left: 30px;
+}
+
+#description {
+    font-style: italic;
+    font-weight: 200;
+}
+.container {
+    width: 100%;
+    margin: 50px auto 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+form {
+    background: rgb(35, 35, 76);
+    padding: 2.5rem 0.625rem;
+    margin-top: 0px;
+    width: 50%;
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 5px;
+}
+
+div{
+    display: block;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-left: 30px;
+   
+}
+
+#name, #email, #number, #dropdown {
+    display: block;
+    width: 90%;
+    height: 30px;
+    padding:6px 12px ;
+    color:gray;
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: auto;
+}
+
+#dropdown {
+    padding-bottom: 1px;
+    width: 90%;
+    height: 43px;
+}
+
+.container-2 {
+    margin: 0 auto 20px auto;
+  
+
+}
+
+textarea {
+    display: block;
+    width: 87%;
+    height: 100px;
+    padding:6px 12px ;
+    color:gray;
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    margin: auto;
+}
+
+button {
+    width: 90%;
+    background-color: rgb(85, 173, 85);
+    color: white;
+    height: 50px;
+    margin: auto;
+    padding:6px 12px ;
+    display: block;
+}
+

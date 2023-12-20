@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(221, 221, 221);
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 40px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+li {
+    margin: 16px 0;
+    padding: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+#img-div {
+    background: white;
+    padding: 9px;
+    margin: 0 auto;
+    width: 85%;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0 ;
+}
+
+#headline {
+    margin: 50px 0;
+
+}

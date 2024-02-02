@@ -14,7 +14,7 @@
 
 function printAlert() {
     var alertNode = document.getElementsByTagName("li")[0];
-    window.alert(alertNode.textContent);
+    alert(alertNode.textContent);
 }
 
 printAlert();

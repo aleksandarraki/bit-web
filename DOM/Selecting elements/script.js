@@ -9,15 +9,17 @@ function selectSecondList() {
 }
 selectSecondList();
 
-// Create a second function that, when triggered, selects all &lt;li&gt; elements on the
+// Create a second function that, when triggered, selects all "li" elements on the
 // page.
-// The function also sets a class that sets some bg color to every &lt;li&gt; element.
+// The function also sets a class that sets some bg color to every "li" element.
 
 function selectAll() {
     var lielements = document.getElementsByTagName("li");
+   console.log(lielements);
     for (var i = 0; i < lielements.length; i++) {
         lielements[i].classList.add("new");
     }
+   
 }
 selectAll();
 
@@ -33,7 +35,7 @@ function thirdList() {
         thirdListItems[i].classList.add("treća-klasa");
     }
 
-    console.log(thirdListItems);
+    
 }
 var result = thirdList();
 console.log(result);
